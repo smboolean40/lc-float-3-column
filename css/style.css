@@ -1,0 +1,55 @@
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Common */
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+/* Header */
+header {
+	background-color: blueviolet;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+/* Main */
+.col-left, .col-right, .col-center {
+	float: left;
+}
+.col-left, .col-right {
+	background-color: blue;
+	width: 25%;
+}
+.col-center {
+	background-color: pink;
+	width: calc(50% - 40px);
+	margin: 0 20px;
+}
+
+.product-img, .product-text {
+	float: left;
+}
+.product-img {
+	width: 30%;
+}
+.product-text {
+	width: 70%;
+}
+
+/* Footer */
+footer {
+	background-color: blueviolet;
+	height: 100px;
+	margin-top: 20px;
+}
